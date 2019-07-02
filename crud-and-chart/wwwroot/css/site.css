@@ -1,0 +1,111 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+form {
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgb(128, 128, 128) 1px 1px;
+}
+
+main[role="main"] {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+#list-content {
+    width: 80%;
+    height: 400px;
+    overflow: auto;
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: rgb(128, 128, 128) 1px 1px;
+}
+
+.item-row-left {
+    position: relative;
+    margin-left: 15px;
+}
+
+.item-row-right {
+    display: inline-block;
+    text-align: center;
+}
+
+.item-row-right p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.item-nombre {
+    margin: 0;
+    position: absolute;
+}

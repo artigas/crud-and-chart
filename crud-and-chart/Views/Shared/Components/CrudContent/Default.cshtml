@@ -1,0 +1,28 @@
+﻿@model List<Item>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    @foreach (var item in Model)
+    {
+        <div class="item-row">
+            <div class="item-row-left">
+                <div class="item-nombre">
+                    <p>@item.Nombre</p>
+                </div>
+            </div>
+            <div class="item-row-right">
+                <p class="item-valor">@item.Valor</p>
+                <p class="item-categoria">@item.Categoria</p>
+            </div>
+        </div>
+    }
+</body>
+</html>
